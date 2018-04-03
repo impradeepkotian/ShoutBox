@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial;
+	font-size: 15px;	
+	background: #020202;
+}
+
+#container{
+	background: #0099e5;
+	margin: 10px auto;
+	overflow: auto;
+	width: 60%;
+	min-height: 600px;
+}
+
+header h3{
+	color: #fff;
+	font-size: 10px;	
+	border-bottom: 1px solid #fff;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#shouts{
+	width: 90%;
+	background: #f4f4f4;
+	height: 300px;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.shout {
+	list-style: none;
+	padding: 8px;
+	border-bottom: 1px #ccc dotted;
+}
+.shout span{
+	color:#aaaaaa;
+}
+
+
+
+.error{
+	background: red;
+	color: #fff;
+	padding: 5px;
+	margin-bottom:20px;
+	border:#FFF solid 1px;; 
+	width: 100%;
+}
+@media only screen and (max-width: 768px){
+	#input input[type="text"]{
+		width:98%;
+	}
+}
